@@ -1,10 +1,14 @@
 import random
 
-class Employee:
+class PayrollDeduction:
     
-    def __init__(self,name,ID, department, job,salary):
-        self.__name = name
+    def __init__(self,description, date, charge_amount,ID):
+        self.__description = description
+        self.__date = date
+        self.__charge_amount = charge_amount
         self.__ID = ID
-        self.__department = department
-        self.__job = job
-        self.__salary = salary 
+
+    def getdescription(self):
+
+        return self.__description
+        

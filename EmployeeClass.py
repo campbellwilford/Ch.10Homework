@@ -10,5 +10,8 @@ class Employee:
         self.__salary = salary 
 
     
+    def getName(self):
+
+        return self.__name
 
 
