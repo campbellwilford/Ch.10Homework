@@ -11,4 +11,12 @@ class PayrollDeduction:
     def getdescription(self):
 
         return self.__description
-        
+
+    def getDate(self):
+        return self.__date
+    
+    def getcharge_amount(self):
+        return self.__charge_amount
+    
+    def getID(self):
+        return self.__ID

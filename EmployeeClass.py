@@ -11,7 +11,18 @@ class Employee:
 
     
     def getName(self):
-
         return self.__name
+    
+    def getID(self):
+        return self.__ID
+
+    def getDepartment(self):
+        return self.__department
+    
+    def getJob(self):
+        return self.__job
+    
+    def getSalary(self):
+        return self.__salary
 
 
